@@ -4,8 +4,8 @@ from os import environ
 # DEFAULT TBB PATHS works for TBB versions v4.x and above
 # Old TBB versions (V3.X or below) have different directory structures
 DEFAULT_TBB_BROWSER_DIR = 'Browser'
-DEFAULT_TBB_TORBROWSER_DIR = join('Browser', 'TorBrowser')
-DEFAULT_TBB_FX_BINARY_PATH = join('Browser', 'firefox')
+DEFAULT_TBB_TORBROWSER_DIR = join('Contents', 'Resources', 'TorBrowser')
+DEFAULT_TBB_FX_BINARY_PATH = join('Contents', 'MacOS', 'firefox')
 DEFAULT_TOR_BINARY_DIR = join(DEFAULT_TBB_TORBROWSER_DIR, 'Tor')
 DEFAULT_TOR_BINARY_PATH = join(DEFAULT_TOR_BINARY_DIR, 'tor')
 DEFAULT_TBB_DATA_DIR = join(DEFAULT_TBB_TORBROWSER_DIR, 'Data')
